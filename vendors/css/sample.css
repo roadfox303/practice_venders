@@ -1,0 +1,131 @@
+html {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+  height: 100%;
+}
+
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+.container{
+    position: relative;
+    min-height:100%;
+}
+/* ここから */
+header {
+    display: block;
+    background: #333333;
+    height: auto;
+}
+
+header ul {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 30px 0px;
+}
+
+header ul a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1rem;
+}
+header ul a:hover{
+    opacity:0.5;
+}
+header li {
+    display: block;
+}
+.left{
+    float: left;
+    margin-left: 50px;
+}
+.right{
+    float: right;
+}
+header ul:after {
+    clear: both;
+}
+/* ここまでがheader部分の実装 */
+.main-header{
+    display:block;
+    padding: 150px 0;
+    overflow: hidden;
+    background-image:url("../images/header.jpg");
+    background-size: cover;
+}
+
+.main-header img {
+/* main画像（白い「Achieve」の文字の画像）部分の実装 */
+display: block;
+width: 25%;
+min-width: 200px;
+margin: auto;
+}
+
+h1{
+    font-size: 2rem;
+    padding: 1.5rem 0;
+}
+.about {
+/* About Achieve部分の実装 */
+    padding: 0 14%;
+}
+.about p{
+    padding: 0 0 2rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.1rem;
+}
+
+/* ここから */
+.function {
+     background: #dddddd;
+     padding: 2rem 0 8rem;
+}
+
+.function-images {
+    display: table;
+    width: 75%;
+    min-width: 480px;
+    margin: 0 auto 3rem;
+}
+
+.function-image {
+    display: table-cell;
+    width: 25%;
+    font-size: 0.8rem;
+    color: #224050;
+}
+.function-image img{
+    width:30%;
+    margin: 0 auto;
+}
+/* ここまでがfunction部分の実装 */
+
+footer {
+/* footer部分の実装 */
+    background: #224050;
+    width: 100%;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0px;
+    display: block;
+}
+footer p{
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0.8rem;
+    color: #fff;
+}
